@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(197, 161, 161);
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+}
+/* ---------------Header Starts-------- */
+header{
+    background-image: url(img/bcg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header nav{
+    background-color: rgb(0 0 0 / 62%);
+    color: white;
+}
+header nav .logo{
+    height: 70px;
+}
+header nav ul li a{
+    color: white !important;
+    font-size: 20px;
+    padding-top: 8px;
+}
+header nav ul li a:hover{
+    background-color: white;
+    color: black !important;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+header nav ul li i {
+    font-size: 30px;
+}
+header .naxsh {
+    width: 280px;
+}
+header .h1-1 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+}
+header button{
+    padding: 18px;
+    opacity: 0.8;
+}
+header .but1{
+    background-color: black;
+    color: white !important;
+ }
+header .but2{
+    background-color: white;
+    color: rgb(0, 0, 0) !important;
+ 
+ }
+/* ---------------Header Ends-------- */
+/* ---------------Main Starts-------- */
+/* ----------------Sec1-------------- */
+.sec1{
+    background-image: url(img/Untitled-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec1 .sec1-div2 {
+    background-image: url(img/Untitled-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec1 .s1-h1 {
+    color: #eac05c;
+}
+.sec1 .naxsh2{
+    width: 300px;
+}
+/* ----------------Sec2-------------- */
+.sec2{
+    background-image: url(img/Untitled-5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.sec2card{
+    background-color: rgb(0 0 0 / 62%);
+    text-align: center;
+}
+.sec2 .s2-bg1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(img/Wheat.jpg);
+    background-size: cover;
+    border: 3px solid grey;
+}
+.sec2 .s2-bg2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(img/organic-corn.jpg);
+    background-size: cover;
+    border: 3px solid grey;
+}
+.sec2 .s2-bg3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url(img/tmg-facebook_social.jpg);
+    background-size: cover;
+    border: 3px solid grey;
+}
+/* ----------------Sec3-------------- */
+.sec3{
+    /* height: 1300px; */
+    background-image: url(img/Untitled-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.s3-cl h3, .sp1{
+    color: #eac05c;
+}
+.s3-cl h3{
+    font-size: 30px;
+}
+.s3-cl .sp1{
+    font-size: 20px;
+}
+.s3-cl hr{
+    color: #eac05c;
+}
+.sec3 .border1 {
+    border: 1px solid #eac05c;
+   
+}
+.sec3 .span1 {
+    background-color:  #eac05c;
+    color: white;
+    padding: 3px 15px;
+}
+/* ----------------Sec4-------------- */
+.sec4{
+    /* height: 700px; */
+    background-image: url(img/Untitled-7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec4 .s4-c2{
+    /* height: 300px; */
+    background-color: rgb(0 0 0 / 62%);
+    color: white;
+}
+/* ----------------Sec5-------------- */
+.sec5 .sec5-1 img{
+   width: 100%;
+   height: 100%;
+}
+.sec5 h5{
+    color: #f9b208;
+}
+.sec5 .field1{
+    color: #f9b208;
+}
+.sec5 .but3{
+    border: #f9b208 1px solid;
+    width: 250px;
+    height: 40px;
+    background-color: #f9b208;
+}
+.sec5 .but3 a{
+    text-decoration: none;
+    color: white;
+}
+/* ----------------Main Ends-------------- */
+/* ----------------Footer Starts-------------- */
+footer{
+    background-color: #19171b;
+}
+footer .footd{
+    color: white;
+    text-align: center;
+}
+footer .footd h6{
+    font-size: 25px;
+}
+
+footer .footd .naxsh2{
+   width: 150px;
+}
+footer  a{
+    color: white !important;
+    font-size: 15px;
+    text-decoration: none;
+}
+/* ----------------Footer Ends-------------- */
+/* ----------------Button-Fark-------------- */
+#mybut{
+ display: none;
+ position: fixed;
+ bottom: 30px;
+ right: 30px;
+ cursor: pointer;
+ z-index: 99;
+ transition: .8s;
+}
+#mybut img{
+    height: 150px;
+}
+
+/* ----------------------------------------------------------Media Part-1500px-------------------------------------------------- */
+@media only screen and (max-width: 1500px) {
+    /* -------Header---- */
+    header nav .logo{
+        height: 50px;
+    }
+    header nav ul li a{
+        font-size: 18px;
+    }
+    header nav ul li i {
+        font-size: 28px;
+    }
+    header .naxsh {
+        width: 250px;
+    }
+    header .h1-1 {
+        font-size: 62px;
+    }
+    /* -------Sec1---- */
+    .naxsh2{
+        width: 290px;
+    }
+    /* -------Sec2---- */
+    .sec2 .s2-bg1,
+    .sec2 .s2-bg2,
+    .sec2 .s2-bg3 {
+        width: 148px;
+        height: 148px;
+    }
+    /* -------Sec3---- */
+    .s3-cl h3{
+        font-size: 28px;
+    }
+    .s3-cl .sp1{
+        font-size: 18px;
+    }
+    /* -------Sec5---- */
+    .sec5 .but3{
+        width: 240px;
+    }
+    /* -------Footer---- */
+    footer .footd h6{
+        font-size: 23px;
+    }
+    footer .footd .naxsh2{
+       width: 148px;
+    }
+    footer  a{
+        font-size: 13px;
+    }
+ } 
+ /* ---------------------------------Media Part-1250px------------------------- */
+@media only screen and (max-width: 1250px) {
+    /* -------Header---- */
+    .nav-item{
+        font-size: 12px;
+    }
+    .naxsh {
+        width: 240px;
+    }
+    .btn{
+        width: 137px;
+    }
+    .navbar-toggler-icon{
+        background-color: #fff;
+        margin-left: 200px;
+    }
+     /* -------Sec1---- */
+     .naxsh2{
+        width: 250px;
+    }
+}
+ /* -------Sec5---- */
+ .sec5 .but3{
+     width: 150px;
+ }
+ /* ---------------------------------Media Part-800px------------------------- */
+@media only screen and (max-width: 800px) {
+    /* -------Header---- */
+    header nav .logo{
+        height: 40px;
+    }
+    header nav ul li a{
+        font-size: 15px;
+    }
+    header nav ul li i {
+        font-size: 25px;
+    }
+    header .naxsh {
+        width: 140px;
+    }
+    header .h1-1 {
+        font-size: 50px;
+    }
+    /* -------Sec1---- */
+    .naxsh2{
+        width: 160px;
+    }
+    /* -------Sec2---- */
+    .sec2 .s2-bg1,
+    .sec2 .s2-bg2,
+    .sec2 .s2-bg3 {
+        width: 120px;
+        height: 120px;
+    }
+    /* -------Sec3---- */
+    .s3-cl h3{
+        font-size: 25px;
+    }
+    .s3-cl .sp1{
+        font-size: 15px;
+    }
+    /* -------Sec4---- */
+    .sec4 h4{
+        font-size: 15px;
+    }
+    .sec4 p{
+        font-size: 10px;
+    }
+    /* -------Sec5---- */
+    .sec5 .but3{
+        width: 120px;
+    }
+    /* -------Footer---- */
+    footer .footd h6{
+        font-size: 18px;
+    }
+    footer .footd .naxsh2{
+       width: 140px;
+    }
+    footer  a{
+        font-size: 8px;
+    }
+    /* ----------------Button-Fark-------------- */
+    #mybut img{
+        height: 100px;
+    }
+}
+/* ---------------------------------Media Part-500px------------------------- */
+@media only screen and (max-width: 500px) {
+    /* -------Header---- */
+    .nav-item{
+        font-size: 5px;
+    }
+    .naxsh {
+        width: 140px;
+    }
+    .btn{
+        width: 100px;
+    }
+    header .h1-1 {
+        font-size: 12px;
+    }
+     /* -------Sec1---- */
+    .naxsh2{
+        width: 120px;
+    }
+     /* -------Sec5---- */
+     .sec5 .but3{
+         width: 90px;
+     }
+}
